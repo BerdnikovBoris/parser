@@ -1,0 +1,24 @@
+.clipboard_button_label {
+  text-align: center;
+  margin: 0 20px;
+  width: 122px;
+  height: 35px;
+  padding: 0px 10px;
+  background-color: #c39e9e;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+}
+
+.input_display {
+  display: none;
+}

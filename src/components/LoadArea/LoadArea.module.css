@@ -1,0 +1,131 @@
+.loaded_container {
+  height: 80vh;
+}
+
+.load_buttons_wrap {
+  display: block;
+  margin: auto;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  height: 314px;
+  width: 80vw;
+  border: 2px #b0a3a3 dotted;
+  border-radius: 5px;
+}
+
+.load_textarea {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  height: 167px;
+  padding: 0;
+  width: 80vw;
+  border: 1px #b0a3a3 solid;
+  border-radius: 5px;
+  background-color: rgb(243, 233, 221);
+}
+
+.load_textarea:not(:placeholder-shown) {
+  height: 80vh;
+  width: 80vw;
+  position: absolute;
+  top: 80px;
+}
+
+.load_icon {
+  margin-top: 20px;
+  width: 56px;
+  height: 75px;
+}
+
+.load_buttons {
+  display: block;
+  box-sizing: border-box;
+}
+
+.button_group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+}
+
+.clipboard_button_label {
+  text-align: center;
+  margin: 0 20px;
+  width: 122px;
+  height: 35px;
+  padding: 0px 10px;
+  background-color: #c39e9e;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.clipboard_button {
+  text-align: center;
+  margin: 0 20px;
+  width: 142px;
+  height: 35px;
+  padding: 0px 10px;
+  background-color: #c39e9e;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.parse_table {
+  background-color: aquamarine;
+}
+
+.loaded_area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 80vh;
+}
+
+.file_name {
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.downlowded_buttons_wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.clipboard_button_label {
+  text-align: center;
+  margin: 0 20px;
+  width: 122px;
+  height: 35px;
+  padding: 0px 10px;
+  background-color: #c39e9e;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+}

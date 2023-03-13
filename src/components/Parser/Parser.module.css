@@ -1,0 +1,151 @@
+.parser_wrapper {
+  width: 100vw;
+  height: 120vh;
+  background-color: rgb(243, 233, 221);
+}
+
+.parser {
+  height: 100vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding-top: 20px;
+  height: 80px;
+}
+
+.header_logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  position: relative;
+  height: 60px;
+}
+
+.logo_wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo_icon {
+  margin-right: 10px;
+  height: 44px;
+  width: 44px;
+}
+
+.header_logo_title {
+  margin: 2px;
+  left: 0;
+}
+
+.header_logo_text {
+  margin: 2px;
+  left: 0;
+}
+
+.parse_button {
+  text-align: center;
+  margin: 0 20px;
+  width: 142px;
+  height: 35px;
+  padding: 0px 10px;
+  background-color: #c39e9e;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+/* ==============drop ===============*/
+
+.drop_wrapper {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.drag_area {
+  position: absolute;
+  border: 5spx dotted #fff;
+  border-radius: 5px;
+  width: 80vw;
+  height: 80vh;
+}
+
+.drag_title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.drag_info {
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.getload_wrapper {
+  background-color: aqua;
+}
+
+.loaded_area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 80vh;
+}
+
+.load_icon {
+  margin-top: 20px;
+  width: 56px;
+  height: 75px;
+}
+
+.file_name {
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.downlowded_buttons_wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.clipboard_button_label {
+  text-align: center;
+  margin: 0 20px;
+  width: 122px;
+  height: 35px;
+  padding: 0px 10px;
+  background-color: #c39e9e;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+}
+
+.pars_result_wrap {
+  border: 2px #b0a3a3 dotted;
+  border-radius: 5px;
+}
